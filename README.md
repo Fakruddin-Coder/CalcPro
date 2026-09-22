@@ -1,11 +1,19 @@
 # 🧮 CalcPro - Smart Calculator
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-calc--pro--two.vercel.app-0070F3?style=for-the-badge&logo=vercel&logoColor=white)](https://calc-pro-two.vercel.app/)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
+[![Vercel Deployment](https://img.shields.io/badge/Deployment-Vercel-success?style=for-the-badge&logo=vercel&logoColor=white)](https://calc-pro-two.vercel.app/)
 
 A sleek, modern, and interactive glassmorphic web calculator built using vanilla web technologies. **CalcPro** features fluid background animations, dynamic button shine micro-interactions, responsive design, and seamless keyboard navigation.
+
+---
+
+## 🌐 Live Demo
+
+Experience **CalcPro** live in your browser:  
+👉 **[https://calc-pro-two.vercel.app/](https://calc-pro-two.vercel.app/)**
 
 ---
 
@@ -48,7 +56,7 @@ CalcPro/
 ├── style.css        # Styles, animations, glassmorphism, responsive design
 ├── script.js        # Calculator logic, math evaluation, keyboard controls
 ├── .gitignore       # Git ignore rules
-└── README.md        # Project documentation
+└── README.md        # Project documentation & live deployment link
 ```
 
 ---
@@ -80,42 +88,14 @@ npx serve .
 
 ---
 
-## ☁️ Vercel Deployment Instructions
+## ☁️ Vercel Deployment
 
-Deploying **CalcPro** to [Vercel](https://vercel.com/) is straightforward with zero configuration needed.
+**CalcPro** is deployed on [Vercel](https://vercel.com/) with continuous deployment enabled:
 
-### Method 1: Deploy via GitHub & Vercel Dashboard (Recommended)
+- **Live Production URL**: [https://calc-pro-two.vercel.app/](https://calc-pro-two.vercel.app/)
 
-1. Log in to your [Vercel Dashboard](https://vercel.com/dashboard).
-2. Click **"Add New..."** and select **"Project"**.
-3. Choose your GitHub repository: `Fakruddin-Coder/CalcPro`.
-4. In the configuration screen:
-   - **Framework Preset**: Leave as *Other* (Static Site).
-   - **Root Directory**: `./`
-   - **Build & Output Settings**: Defaults are fine (no build command needed for static sites).
-5. Click **"Deploy"**.
-6. Your live site URL (e.g., `https://calc-pro-xxx.vercel.app`) will be available in seconds!
-
-### Method 2: Deploy via Vercel CLI
-
-1. Install the Vercel CLI globally:
-   ```bash
-   npm install -g vercel
-   ```
-2. In the project root directory, run:
-   ```bash
-   vercel
-   ```
-3. Follow the interactive prompts to authenticate and deploy:
-   - Set up and deploy? `Y`
-   - Which scope? Select your personal account.
-   - Link to existing project? `N`
-   - What's your project's name? `calcpro`
-   - In which directory is your code located? `./`
-4. For production deployment, run:
-   ```bash
-   vercel --prod
-   ```
+### Continuous Deployment via GitHub
+Whenever changes are pushed to the `main` branch of [Fakruddin-Coder/CalcPro](https://github.com/Fakruddin-Coder/CalcPro), Vercel automatically detects the update, builds, and deploys the new version instantly.
 
 ---
 
